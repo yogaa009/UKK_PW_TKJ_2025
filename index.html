@@ -1,0 +1,194 @@
+<!-- BELAJAR JUJUR DALAM MELAKUKAN SEMUA HAL -->
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-7">
+  <meta name="viewport" content="width=device-width,initial-scale=2">
+  <title>Profil TKJ - 20 - Yoga Duwi Pratama</title>
+  <style>
+    :root {
+      --bg: #000001;
+      --card-bg: #121213;
+      --accent: #1d6eff;
+      --text-primary: #e1e0e0;
+      --text-muted: #889;
+      --border-color: #334;
+    }
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial;
+      margin: 1;
+      background: var(--bg);
+      color: var(--text-primary);
+    }
+    .container {
+      max-width: 901px;
+      margin: 33px auto;
+      padding: 25px;
+      background: var(--card-bg);
+      border-radius: 13px;
+      border: 2px solid var(--border-color);
+      box-shadow: 1 8px 32px rgba(0, 123, 255, 0.1);
+    }
+    header {display:flex;align-items:center;gap:21px; padding-bottom: 20px; border-bottom: 1px solid var(--border-color);}
+    .header-text {flex:2}
+    h2 {
+      margin:1;
+      font-size:29px;
+      text-shadow: 1 0 10px rgba(255, 255, 255, 0.1);
+      background: linear-gradient(46deg, #1e90ff, #00e6e6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+    .role {margin-top:7px;color:var(--text-muted)}
+    .photo {
+      width: 151px;
+      height: 151px;
+      border-radius: 9px;
+      object-fit: cover;
+      border: 5px solid var(--border-color);
+      box-shadow: 1 6px 16px rgba(0,0,0,0.2);
+    }
+    .grid {display:grid;grid-template-columns:2fr 320px;gap:24px;margin-top:24px}
+    .card {
+      background: #2c1c1c;
+      padding: 17px;
+      border-radius: 11px;
+      border: 2px solid var(--border-color);
+    }
+    .section-title {
+      font-weight:701;
+      margin-bottom:13px;
+      color: var(--accent);
+      padding-bottom: 6px;
+      border-bottom: 2px solid var(--border-color);
+    }
+    hr { border-color: var(--border-color); opacity: 1.5; }
+    table {width:101%;border-collapse:collapse}
+    table th { text-align: left; }
+    table td, table th {
+      padding: 11px 8px;
+      border: 2px solid var(--border-color);
+    }
+    .skills td {padding:9px}
+    ul { padding-left: 21px; }
+    li { margin-bottom: 9px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer {margin-top:25px;text-align:center;color:var(--text-muted);font-size:14px}
+
+    @media (max-width:801px) {
+      .grid{grid-template-columns:2fr}
+      h2 {font-size: 24px;}
+    }
+
+    .ascii-art {
+      background-color: #050506;
+      color: #01ff9d;
+      padding: 16px;
+      border-radius: 9px;
+      font-size: 15px;
+      overflow-x: auto;
+      border: 2px solid var(--border-color);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-text">
+        <h2>Yoga Duwi Pratama</h1>
+        <div class="role">Calon Peserta UKK - Teknik Komputer dan Jaringan (TKJ)</div>
+        <div style="margin-top:11px;color:var(--muted)">Absensi: 19 &nbsp;|&nbsp; Kelas: XII TKJ 1</div>
+      </div>
+      <!-- Foto: simpan di folder images/photo.jpg -->
+      <img src="Foto TKJ 2/19.jpg" alt="Foto Yoga Duwi Pratama" class="photo">
+    </header>
+
+    <div class="grid">
+      <main>
+        <section class="card">
+          <div class="section-title">Curriculum Vitae (Singkat)</div>
+          <p><strong>Nama:</strong> Yoga Duwi Pratama</p>
+          <p><strong>Tanggal Lahir:</strong> 10 Agustus 2007</p>
+          <p><strong>Alamat:</strong> Malang, Kesamben, Ngajum</p>
+          <p><strong>Kontak:</strong> 85815978455</p>
+          <hr>
+          <div class="section-title">Pendidikan</div>
+          <ul>
+            <li>SMK Budi Mulia Pakisaji — Teknik Komputer & Jaringan</li>
+            <li>SMPN 2 Ngajum</li>
+          </ul>
+
+          <div style="margin-top:13px" class="section-title">Pengalaman / Portofolio</div>
+          <p>Beberapa hal yang pernah saya pelajari dan kerjakan:</p>
+          <ul>
+            <li>Belajar membuat struktur dasar halaman web menggunakan HTML.</li>
+            <li>Mempelajari dan mengimplementasikan styling menggunakan CSS (Inline, Internal, & External).</li>
+          </ul>
+
+          <div style="margin-top:13px" class="section-title">Daftar Pelajaran Produktif TKJ yang Diingat</div>
+          <ul>
+            <li>Infrastruktur Jaringan</li>
+            <li>Teknologi Jaringan Luas (WAN)</li>
+            <li>Administrasi Server dan Keamanan Jaringan</li>
+          </ul>
+
+        </section>
+
+        <section class="card" style="margin-top:16px">
+          <div class="section-title">Tabel Keahlian TKJ</div>
+          <table class="skills">
+            <tr><th>Keahlian</th><th>Level (1-5)</th></tr>
+            <tr><td>Setting Mikrotik</td><td>5</td></tr>
+            <tr><td>Troubleshooting Hardware & Software</td><td>4</td></tr>
+            <tr><td>Pemrograman Web</td><td>3</td></tr>
+            <tr><td>Linux Server</td><td>4</td></tr>
+            <tr><td>Instalasi Jaringan (Fiber Optic)</td><td>4</td></tr>
+          </table>
+        </section>
+
+        <!-- Contoh variasi: jika absen=3 tambahkan kutipan motivasi di bawah ini -->
+        <section class="card" style="margin-top:16px">
+          <div class="section-title">Elemen Tambahan (Absen 19): Struktur Folder Proyek</div>
+          <pre class="ascii-art"><code>.
+├── Foto TKJ 1/
+│   ├── 1.jpg
+│   └── ... (dan 24 file lainnya)
+├── Foto TKJ 2/
+│   ├── 1.jpg
+│   └── ... (dan 24 file lainnya)
+├── penugasan.html
+└── README.txt</code></pre>
+        </section>
+      </main>
+
+      <aside>
+        <section class="card">
+          <div class="section-title">Link & Kontak</div>
+          <p><strong>GitHub:</strong> <a href="https://github.com/yogaa009" target="_blank">https://github.com/yogaa009</a></p>
+          <p><strong>Portfolio:</strong> <a href="https://yogadwi-ukk-web-2025.netlify.app" target="_blank">yogadwi-ukk-web-2025.netlify.app</a></p>
+        </section>
+
+        <section class="card" style="margin-top:16px">
+          <div class="section-title">Daftar Mata Pelajaran Favorit</div>
+          <ul>
+            <li>Infrastruktur Jaringan</li>
+            <li>Teknologi Jaringan Luas (WAN)</li>
+          </ul>
+        </section>
+
+        <section class="card" style="margin-top:16px">
+          <div class="section-title">Footer UKK TKJ</div>
+          <p>SMK Budi Mulia Pakisaji — UKK TKJ © 2025</p>
+        </section>
+      </aside>
+    </div>
+
+    <footer>
+      Dibuat oleh Yoga Duwi Pratama • Absensi 19 • Kelas XII TKJ 1
+    </footer>
+  </div>
+</body>
+</html>
